@@ -1,0 +1,206 @@
+.logo {
+    width: 10rem;
+}
+
+.carousel-indicators .active {
+    background-color: #89BF36 !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(61, 59, 59) !important;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #3498db;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+#carouselExampleIndicators .carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #b2aba0;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}
+
+
+.carousel-caption.left-caption {
+    position: absolute;
+    top: 50%;
+    left: 5rem;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #101010;
+}
+
+.carousel-caption .display-2 {
+    font-weight: 500;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+}
+
+.carousel-caption .display-4 {
+    font-weight: 500;
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+}
+
+.carousel-caption .bottam-text {
+    font-size: 1.2rem;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+}
+
+.carousel-caption .top-text {
+    font-size: 1.2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.top-btn {
+    padding: 10px 35px;
+    border: 1px solid black;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 0;
+    transition: 0.3s;
+    max-width: 10rem;
+}
+
+.top-btn:hover {
+    color: #fff;
+    border: 1px solid transparent;
+    background-color: #9BC96D;
+    transition: 0.3s;
+}
+
+nav .btn-theme {
+    background-color: #C3A14C;
+}
+
+@media (max-width:767px) {
+    .logo {
+        width: 8.4rem;
+        height: auto;
+    }
+
+    .carousel-item {
+        height: 180px;
+    }
+
+    .count-product {
+        position: absolute;
+        top: 13px;
+        right: 18rem;
+    }
+
+    .carousel-caption.left-caption {
+        position: absolute;
+        top: 40%;
+        left: 1rem;
+        transform: translateY(-50%);
+        text-align: left;
+        color: #101010;
+
+    }
+
+    .carousel-caption .display-2 {
+        font-weight: 500;
+        font-family: "Cinzel", serif;
+        font-optical-sizing: auto;
+        font-size: 1.2rem;
+    }
+
+    .carousel-caption .display-4 {
+        font-weight: 500;
+        font-family: "Cinzel", serif;
+        font-optical-sizing: auto;
+        font-size: 1rem;
+        max-width: 150px;
+    }
+
+    .carousel-caption .bottam-text {
+        font-size: 0.5rem;
+        font-family: "Exo 2", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+    }
+
+    .carousel-caption .top-text {
+        font-size: 0.5rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    /* Top-Btn */
+    .top-btn {
+        border: 1px solid black;
+        text-transform: uppercase;
+        font-size: 8px;
+        border-radius: 0;
+        transition: 0.3s;
+    }
+
+    .about h3 {
+        font-size: 1.4rem;
+    }
+}
+
+.about h3 {
+    font-size: 2rem;
+    color: #d4780f;
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.about p {
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+
+.vision-mission {
+    background-color: #EFE6DA;
+}
+
+.footer {
+    padding: 40px 0;
+    background-color: #ddd;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    text-align: center;
+}
+
+footer li a {
+    color: #101010;
+    text-decoration: none;
+
+}
