@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.breadcrumb {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(images/about1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.breadcrumb h3 {
+    font-size: 45px;
+}
+
+.count-product {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.about h3 {
+    color: #d4780f;
+    font-size: 2rem;
+}
+
+.about p {
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+
+.ttl {
+    font-size: 64px;
+    margin-block: 10px;
+    color: #333 !important;
+}
+
+.ttl {
+    font-size: 4vw;
+    font-family: "Exo 2", sans-serif;
+    background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, #EDCD44 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(208, 163, 14) 52%, rgb(224, 246, 255) 60%, #DD3F26 61%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.abt-cont {
+    font-size: 25px !important;
+    text-align: justify;
+}
+
+.products-sec img {
+    width: 80%;
+    filter: drop-shadow(0px 12px 5px);
+}
+
+.v-line {
+    border-right: 2px dotted silver;
+    padding-right: 35px;
+    position: relative;
+}
+
+.v-line::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    -top: 50%;
+    background-color: white;
+    background-image: url(images/cup.png);
+    background-size: contain;
+    right: -20px;
+    bottom: -20px;
+}
+
+.r-data {
+    padding-left: 35px;
+}
+
+
+.vision-mission {
+    background-color: #EFE6DA;
+}
+
+.desc-item li {
+    -border: 1px solid red;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 35px;
+}
+
+.desc-item li::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    border: 1px solid green;
+    position: absolute;
+    left: 0;
+    border-radius: 50%;
+}
+
+.desc-item li::after {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    position: absolute;
+    left: 1.5%;
+    border-radius: 50%;
+    top: 50.3%;
+    transform: translate(-50%, -50%);
+}
+
+
+.line-ver {
+    border: 1px solid #ddd;
+    margin: auto;
+    width: 1px;
+    height: 100%;
+}
+
+table tr td {
+    vertical-align: middle;
+}
+
+.s-img {
+    width: 70%;
+    height: 300px;
+    display: block;
+    margin: auto;
+    object-fit: cover;
+}
