@@ -13,10 +13,10 @@ document.getElementById("navbar").innerHTML = `
                         <a class="nav-link text-dark" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">About</a>
+                        <a class="nav-link text-dark" href="about.html">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Shop</a>
+                        <a class="nav-link text-dark" href="shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="#">Contact</a>
