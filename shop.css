@@ -1,0 +1,35 @@
+.products-sec img {
+    width: 80%;
+    filter: drop-shadow(0px 12px 5px);
+}
+
+.breadcrumb {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(images/about1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.breadcrumb h3 {
+    font-size: 45px;
+}
+
+.shop-btn {
+    background-color: #B8C499;
+    color: #fff;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    transition: color .25s, border-color .25s, background-color .25s, opacity .25s, width .25s ease 0s;
+    font-weight: 500;
+    line-height: 1;
+    padding: 15px 30px;
+    font-size: 15px;
+    border: 1px solid #fff;
+    border: 2px solid red;
+}
