@@ -10,7 +10,7 @@ document.getElementById("navbar").innerHTML = `
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto ">
                     <li class="nav-item">
-                        <a class="nav-link text-dark" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link text-secondary" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="about.html">About</a>
@@ -21,8 +21,9 @@ document.getElementById("navbar").innerHTML = `
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="contact.html">Contact</a>
                     </li>
-
-                    <button class="btn btn-theme text-white rounded-pill px-4">My account</button>
+                    <button class="btn btn-theme text-white rounded-pill px-4">
+                    <a class="text-dark text-decoration-none text-white" href="myaccount.html">My account<a/>
+                    </button>
                 </ul>
             </div>
         </div>

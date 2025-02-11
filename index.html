@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea Leaves</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap5-CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- AOS-animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -50,11 +54,12 @@
         </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/slider 2.jpg" class="d-block w-100" alt="...">
+                <img src="images/slider 2.jpg" class="d-block w-100" alt="slider1" data-aos="fade-left"
+                    data-aos-duration="1000">
                 <div class="carousel-caption left-caption">
                     <p class="top-text" data-aos="fade-down" data-aos-duration="1000">Organic Food</p>
-                    <h1 class="display-2" data-aos="fade-left" data-aos-duration="1000">Fresh Green Tea</h1>
-                    <p class="bottam-text" data-aos="" data-aos-duration="1000">Product by Armanee Shop.</p>
+                    <h1 class="display-2" data-aos="fade-right" data-aos-duration="1000">Fresh Green Tea</h1>
+                    <p class="bottam-text">Product by Armanee Shop.</p>
                     <div class=" top-btn">Shop now</div>
                 </div>
             </div>
@@ -79,17 +84,19 @@
     <section class="about">
         <div class="container">
             <div class="row">
-
                 <div class="col-md-9">
-
-                    <h3 class="text-center mb-4 WTP"> Welcome to Armanee tea
+                    <h3 class="text-center mb-4 WTA" data-aos="zoom-in" data-aos-duration="800"> Welcome to
+                        Armanee tea
                     </h3>
-                    <p>Armanee Tea is a Premium Tea Company, having presence in tea business since 2010.Armanee Tea,
+                    <p data-aos="fade-left" data-aos-duration="800">Armanee Tea is a Premium Tea Company, having
+                        presence
+                        in tea business since 2010.Armanee Tea,
                         blends natural teas, along with organic teas. The Armanee Tea enriches people with their various
                         products of
                         tea.</p>
 
-                    <p>While blending tea, every care is taken by Quality testers to make each cup add a refreshment and
+                    <p data-aos="fade-left" data-aos-duration="900">While blending tea, every care is taken by Quality
+                        testers to make each cup add a refreshment and
                         joy
                         for the
                         day. Tea buyers get the pure teas from the world’s finest tea quality and botanicals. By getting
@@ -99,7 +106,9 @@
                         multiple times
                         before it reaches the customers.</p>
 
-                    <p>Our process is carried out by the means of stringent quality control process,in modern automated
+                    <p data-aos="fade-left" data-aos-duration="1000">Our process is carried out by the means of
+                        stringent
+                        quality control process,in modern automated
                         factories
                         with untouched hands under the supervision of a knowledgeable team of professionals.The end
                         result
@@ -120,7 +129,7 @@
     <section class="about vision-mission">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-right" data-aos-duration="800">
                     <h5 class="text-center mb-3">OUR MISSION</h3>
                         <p>Our mission is to be the most successful tea company in India, providing the most unique,
                             healthy
@@ -132,10 +141,8 @@
                             line:
                             People,
                             Planet, Profit.</p>
-
-
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="fade-left" data-aos-duration="800">
                     <h5 class="text-center mb-3">OUR VISION</h3>
                         <p>"To sustainably transform the Indian tea industry for the benefit of consumers, workers,
                             farmers
@@ -203,7 +210,9 @@
         </div>
     </footer>
     <!-----Footer Section End------>
-
+    <script>
+        AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
