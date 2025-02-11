@@ -11,7 +11,7 @@ document.getElementById("footer").innerHTML = `
                         various products of tea.
                     </p>
 
-                    <a href="#" class="btn btn-sm btn-warning">View more</a>
+                    <a href="#" class="btn btn-sm btn-warning text-white" style="background-color: #3C1500; border: none;">View more</a>
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-3 mb-md-0 mb-4">
