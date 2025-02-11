@@ -36,7 +36,6 @@
 }
 
 .about p {
-    font-size: 18px;
     color: black;
     text-align: justify;
 }
@@ -58,7 +57,8 @@
 }
 
 .abt-cont {
-    font-size: 25px !important;
+    margin-top: 1.5rem;
+    font-size: 1rem;
     text-align: justify;
 }
 
@@ -69,7 +69,7 @@
 
 .v-line {
     border-right: 2px dotted silver;
-    padding-right: 35px;
+    /* padding-right: 35px; */
     position: relative;
 }
 
