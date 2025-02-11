@@ -19,7 +19,7 @@ document.getElementById("navbar").innerHTML = `
                         <a class="nav-link text-dark" href="shop.html">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-dark" href="#">Contact</a>
+                        <a class="nav-link text-dark" href="contact.html">Contact</a>
                     </li>
 
                     <button class="btn btn-theme text-white rounded-pill px-4">My account</button>
