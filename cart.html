@@ -49,13 +49,13 @@
                             </td>
                             <td>₹ 450.00</td>
                             <td class="">
-                                <div class="d-flex">
-                                    <button class="btn border">-</button>
+                                <div class="d-flex gap-2">
+                                    <button class="btn border decrease">-</button>
                                     <input type="text" class="form-control text-center" value="1" style="width: 50px;">
-                                    <button class="btn border">+</button>
+                                    <button class="btn border increase">+</button>
                                 </div>
                             </td>
-                            <td><button class="btn btn-danger btn-sm">Delete</button></td>
+                            <td><button class="btn btn-danger btn-sm delete">Delete</button></td>
                             </tr>
                             <tr>
                                 <td style="width: 100px;"><img src="images/p3.png" width="60" alt=""></td>
@@ -65,14 +65,14 @@
                                 </td>
                                 <td>₹ 450.00</td>
                                 <td class="">
-                                    <div class="d-flex">
-                                        <button class="btn border">-</button>
+                                    <div class="d-flex gap-2">
+                                        <button class="btn border decrease">-</button>
                                         <input type="text" class="form-control text-center" value="2"
                                             style="width: 50px;">
-                                        <button class="btn border">+</button>
+                                        <button class="btn border increase">+</button>
                                     </div>
                                 </td>
-                                <td><button class="btn btn-danger btn-sm">Delete</button></td>
+                                <td><button class="btn btn-danger btn-sm delete">Delete</button></td>
                         </table>
                     </div>
                 </div>
@@ -100,6 +100,32 @@
     <div id="footer"></div>
     <script src="footerCommon.js"></script>
     <script src="navbar.js"></script>
+    <script>
+        document.querySelectorAll('.increase').forEach(button => {
+            button.addEventListener('click', function () {
+                const input = this.previousElementSibling;
+                let quantity = parseInt(input.value);
+                input.value = quantity + 1;
+            });
+        });
+
+        document.querySelectorAll('.decrease').forEach(button => {
+            button.addEventListener('click', function () {
+                const input = this.nextElementSibling;
+                let quantity = parseInt(input.value);
+                if (quantity > 1) {
+                    input.value = quantity - 1;
+                }
+            });
+        });
+
+        // Function to delete the item
+        document.querySelectorAll('.delete').forEach(button => {
+            button.addEventListener('click', function () {
+                this.closest('tr').remove();
+            });
+        });
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
