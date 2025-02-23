@@ -11,21 +11,21 @@ document.getElementById("footer").innerHTML = `
                         various products of tea.
                     </p>
 
-                    <a href="#" class="btn btn-sm btn-warning text-white" style="background-color: #3C1500; border: none;">View more</a>
+                    <a href="#" class="btn btn-sm btn-warning">View more</a>
                 </div>
                 <div class="col-md-1"></div>
                 <div class="col-md-3 mb-md-0 mb-4">
                     <h5>Useful Links</h5>
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="about">About us</a></li>
-                        <li><a href="shop">Shop</a></li>
-                        <li><a href="contact">Contact us</a></li>
+                        <li><a href="">Home</a></li>
+                        <li><a href="/about.html">About us</a></li>
+                        <li><a href="/shop.html">Shop</a></li>
+                        <li><a href="/contact.html">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4 ">
+                <div class="col-md-4">
                     <h5>Address</h5>
-                    <p><i class="fa-regular fa-envelope "></i> armaneetea@gmail.com</p>
+                    <p><i class="fa-regular fa-envelope"></i> armaneetea@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i> (+91)-97128 27603</p>
                     <p>
                         <i class="fa-solid fa-location-dot"></i>
