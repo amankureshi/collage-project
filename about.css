@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -33,6 +35,11 @@
 .about h3 {
     color: #d4780f;
     font-size: 2rem;
+}
+
+.about h2 {
+    font-family: "Overpass", serif;
+    font-weight: 700;
 }
 
 .about p {
