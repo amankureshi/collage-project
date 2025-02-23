@@ -1,5 +1,5 @@
 document.getElementById("footer").innerHTML = `
-   <footer class="footer">
+   <footer class="footer p-4">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 mb-md-0 mb-4">
@@ -23,9 +23,9 @@ document.getElementById("footer").innerHTML = `
                         <li><a href="contact">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                     <h5>Address</h5>
-                    <p><i class="fa-regular fa-envelope"></i> armaneetea@gmail.com</p>
+                    <p><i class="fa-regular fa-envelope "></i> armaneetea@gmail.com</p>
                     <p><i class="fa-solid fa-phone"></i> (+91)-97128 27603</p>
                     <p>
                         <i class="fa-solid fa-location-dot"></i>
@@ -34,5 +34,7 @@ document.getElementById("footer").innerHTML = `
                 </div>
             </div>
         </div>
+        <hr>
+        <p class="text-center mt-4">&#169;copyright by armaneeTea 2025</p>
     </footer>
 `;

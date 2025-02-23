@@ -195,7 +195,6 @@ nav .btn-theme {
 }
 
 .footer {
-    padding: 40px 0;
     background-color: #ddd;
 }
 
@@ -206,6 +205,12 @@ footer ul {
     align-items: start;
     justify-content: start;
     text-align: center;
+}
+
+footer p {
+    margin-bottom: 1px !important;
+    font-size: 1.1rem;
+
 }
 
 footer li a {
