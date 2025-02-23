@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 .breadcrumb {
     background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(images/about1.png);
     background-size: cover;

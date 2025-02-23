@@ -17,7 +17,7 @@ document.getElementById("footer").innerHTML = `
                 <div class="col-md-3 mb-md-0 mb-4">
                     <h5>Useful Links</h5>
                     <ul>
-                        <li><a href="">Home</a></li>
+                        <li><a href="/index.html">Home</a></li>
                         <li><a href="/about.html">About us</a></li>
                         <li><a href="/shop.html">Shop</a></li>
                         <li><a href="/contact.html">Contact us</a></li>
