@@ -1,40 +1,124 @@
 document.getElementById("footer").innerHTML = `
-   <footer class="footer p-4">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 mb-md-0 mb-4">
-                    <h5>About us</h5>
-                    <p class="text-justify">
-                        Armanee Tea is a Premium Tea Company, having presence in tea
-                        business since 2010.Armanee Tea ,blends natural teas, along
-                        with organic teas. The Armanee Tea enriches people with their
-                        various products of tea.
-                    </p>
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+<!-- Section: Social media -->
+<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+<!-- Left -->
+    <div class="me-5 d-none d-lg-block">
+    <span>Get connected with us on social networks:</span>
+    </div>
+    <!-- Left -->
 
-                    <a href="#" class="btn btn-sm btn-warning">View more</a>
-                </div>
-                <div class="col-md-1"></div>
-                <div class="col-md-3 mb-md-0 mb-4">
-                    <h5>Useful Links</h5>
-                    <ul>
-                        <li><a href="/index.html">Home</a></li>
-                        <li><a href="/about.html">About us</a></li>
-                        <li><a href="/shop.html">Shop</a></li>
-                        <li><a href="/contact.html">Contact us</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <h5>Address</h5>
-                    <p><i class="fa-regular fa-envelope"></i> armaneetea@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i> (+91)-97128 27603</p>
-                    <p>
-                        <i class="fa-solid fa-location-dot"></i>
-                        DM Complex, At. &, Dist. Agol,(North Gujarat) INDIA
-                    </p>
-                </div>
-            </div>
+    <!-- Right -->
+    <div>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+        <i class="fab fa-google"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+      <i class="fab fa-instagram"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+      <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="" class="me-4 text-reset">
+      <i class="fab fa-github"></i>
+      </a>
+      </div>
+      <!-- Right -->
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center text-md-start mt-5">
+    <!-- Grid row -->
+    <div class="row mt-3">
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+          <!-- Content -->
+          <h6 class="text-uppercase fw-bold mb-4">
+            <i class="fas fa-gem me-3"></i>Armanee Tea
+          </h6>
+          <p>
+            Here you can use rows and columns to organize your footer content. Lorem ipsum
+            dolor sit amet, consectetur adipisicing elit.
+          </p>
         </div>
-        <hr>
-        <p class="text-center mt-4">&#169;copyright by armaneeTea 2025</p>
-    </footer>
-`;
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase fw-bold mb-4">
+        Products
+        </h6>
+        <p>
+            <a href="#!" class="text-reset text-decoration-none ">Angular</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">React</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Vue</a>
+            </p>
+          <p>
+          <a href="#!" class="text-reset text-decoration-none">Laravel</a>
+          </p>
+          </div>
+          <!-- Grid column -->
+          
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <!-- Links -->
+          <h6 class="text-uppercase fw-bold mb-4">
+          Useful links
+          </h6>
+          <p>
+          <a href="#!" class="text-reset text-decoration-none">Pricing</a>
+          </p>
+          <p>
+          <a href="#!" class="text-reset text-decoration-none">Settings</a>
+          </p>
+          <p>
+            <a href="#!" class="text-reset text-decoration-none">Orders</a>
+            </p>
+            <p>
+            <a href="#!" class="text-reset text-decoration-none">Help</a>
+          </p>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+        <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+        <p>
+        <i class="fas fa-envelope me-3"></i>
+        info@example.com
+        </p>
+        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+        <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+        </div>
+        <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+        </div>
+        </section>
+        <!-- Section: Links  -->
+        
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        © 2021 Copyright:
+        <a class="text-reset fw-bold" href="">ArmaaneTea.com</a>
+        </div>
+  <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+  `;

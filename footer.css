@@ -1,0 +1,13 @@
+footer {
+    /* border: 2px solid red; */
+    background-color: #DDDDDD;
+}
+
+footer .container h6 {
+    color: rgb(37, 35, 35);
+}
+
+footer .container .text-reset,
+footer p {
+    color: rgb(50, 48, 48) !important;
+}

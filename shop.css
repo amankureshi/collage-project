@@ -20,7 +20,8 @@
 }
 
 .shop-btn {
-    background-color: #7d8961;
+    background-color: #41B7BB;
+
     color: #fff;
     overflow: hidden;
     display: inline-block;
@@ -46,7 +47,6 @@
 
 .tea-product h5 {
     text-transform: capitalize;
-    /* color: red; */
 }
 
 .row .text-center {
@@ -78,11 +78,16 @@
 }
 
 .tea-product:hover img {
-    transform: scale(1.05);
+    transform: rotate(1);
 }
 
 .prize {
     display: block;
     color: #36392e;
     font-size: 1.2rem;
+}
+
+.shop-btn:hover {
+    color: #fff;
+    background-color: #7d8961;
 }
