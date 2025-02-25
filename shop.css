@@ -20,8 +20,7 @@
 }
 
 .shop-btn {
-    background-color: #41B7BB;
-
+    background-color: #255330db;
     color: #fff;
     overflow: hidden;
     display: inline-block;
@@ -63,7 +62,7 @@
     z-index: 1;
     font-size: 14px;
     padding: 1px 0 3px 0;
-    background: #41b7bb;
+    background: #255330db;
     color: #fff;
     text-align: center;
     align-items: center;
