@@ -4,9 +4,9 @@ document.getElementById("footer").innerHTML = `
             <div class="row">
                 <div class="col-md-4 mb-md-0 mb-4">
                     <h5>About us</h5>
-                    <p class="">
+                    <p class="text-justify">
                         Armanee Tea is a Premium Tea Company, having presence in tea
-                        business since 2010.Armanee Tea , blends natural teas, along
+                        business since 2010.Armanee Tea ,blends natural teas, along
                         with organic teas. The Armanee Tea enriches people with their
                         various products of tea.
                     </p>

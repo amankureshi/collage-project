@@ -10,6 +10,9 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="shop.css">
     <script src="https://kit.fontawesome.com/270c579228.js" crossorigin="anonymous"></script>
+    <!-- AOS-animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -29,66 +32,80 @@
     <section class="about products-sec">
         <div class="container">
             <div class="text-center mb-5">
-                <h3 class="ttl mb-3">Black Tea</h3>
-                <p class="text-center mb-4">
+                <h3 class="ttl mb-3" data-aos="fade-up" data-aos-duration="1000">Black Tea</h3>
+                <p class="text-center mb-4" data-aos="fade-up" data-aos-duration="900">
                     IF YOU FEEL DRINKING A CUP OF TEA IS THE BEST PART OF YOUR DAY, SHOULDN'T
                     YOU BE DRINKING ONLY THE BEST TEA? IF YOUR ANSWER IS A RESOUNDING ‘YES’,
                     THEN YOU HAVE COME TO THE RIGHT PLACE.
                 </p>
             </div>
             <div class="row">
-                <div class="col-md-4 text-center ">
-                    <div class="tea-product">
+                <div class="col-lg-4 col-md-6  text-center">
+                    <div class="tea-product ">
+                        <div class="discount-label">50% OFF</div>
                         <img src="images/p1.png" class="img-fluid" alt="" />
                         <h5>Premium Leaf Tea</h5>
-                        <span>1KG</span>
-                        <br />
-                        <a href="" class="btn btn-light border mt-3 mb-2 mb-2 shop-btn">Shop Now</a>
+                        <span class="prize">
+                            &#8377;340
+                            <span style="font-size: 1rem;">(1KG)</span>
+                        </span>
+                        <a href="" class="btn btn-light border mt-3 mb-3 shop-btn">Shop Now</a>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-lg-4 col-md-6  text-center">
                     <div class="tea-product">
                         <img src="images/p2.png" class="img-fluid" alt="" />
                         <h5>Fanning Tea</h5>
-                        <span>2kG</span>
-                        <br />
-                        <a href="" class="btn btn-light border mt-3 mb-2 shop-btn">Shop Now</a>
+                        <span class="prize">
+                            &#8377;300
+                            <span style="font-size: 1rem;">(1KG)</span>
+                        </span>
+                        <a href="" class="btn btn-light border mt-3 mb-3 shop-btn">Shop Now</a>
                     </div>
                 </div>
-                <div class="col-md-4 text-center ">
+                <div class="col-lg-4 col-md-6  text-center ">
                     <div class="tea-product">
                         <img src="images/p3.png" class="img-fluid" alt="" />
                         <h5> Dazzing (Strong Tea)</h5>
-                        <span>1KG</span>
-                        <br />
-                        <a href="" class="btn btn-light border mt-3 mb-2 shop-btn">Shop Now</a>
+                        <span class="prize">
+                            &#8377;400
+                            <span style="font-size: 1rem;">(1KG)</span>
+                        </span>
+                        <a href="" class="btn btn-light border mt-3 mb-3 shop-btn">Shop Now</a>
                     </div>
                 </div>
-                <div class="col-md-4 text-center">
+                <div class="col-lg-4 col-md-6  text-center">
                     <div class="tea-product">
                         <img src="images/tea-product.png" class="img-fluid" alt="" />
                         <h5>Classic Green</h5>
-                        <span>1KG</span>
-                        <br />
-                        <a href="" class="btn btn-light border mt-3 mb-2 shop-btn">Shop Now</a>
+                        <span class="prize">
+                            &#8377;240
+                            <span style="font-size: 1rem;">(1KG)</span>
+                        </span>
+                        <a href="" class="btn btn-light border mt-3 mb-3 shop-btn">Shop Now</a>
                     </div>
                 </div>
-                <div class="col-md-4 text-center ">
+                <div class="col-lg-4 col-md-6  text-center ">
                     <div class="tea-product">
+                        <div class="discount-label">50% OFF</div>
                         <img src="images/tea-product-4.png" class="img-fluid" alt="" />
                         <h5>Black Tea</h5>
-                        <span>1KG</span>
-                        <br />
-                        <a href="" class="btn btn-light border mt-3 mb-2 shop-btn">Shop Now</a>
+                        <span class="prize">
+                            &#8377;350
+                            <span style="font-size: 1rem;">(1KG)</span>
+                        </span>
+                        <a href="" class="btn btn-light border mt-3 mb-3 shop-btn">Shop Now</a>
                     </div>
                 </div>
-                <div class="col-md-4 text-center ">
+                <div class="col-lg-4 col-md-6 text-center ">
                     <div class="tea-product">
                         <img src="images/tea-product-5.jpg" class="img-fluid" alt="" />
                         <h5>White Tea</h5>
-                        <span>2KG</span>
-                        <br />
-                        <a href="" class="btn btn-light border mt-3 mb-2 shop-btn">Shop Now</a>
+                        <span class="prize">
+                            &#8377;340
+                            <span style="font-size: 1rem;">(1KG)</span>
+                        </span>
+                        <a href="" class="btn btn-light border mt-3 mb-3 shop-btn">Shop Now</a>
                     </div>
                 </div>
             </div>
@@ -97,7 +114,9 @@
     <!------Product Section End--------->
 
     <div id="footer"></div>
-
+    <script>
+        AOS.init();
+    </script>
     <script src="footerCommon.js"></script>
     <script src="navbar.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
