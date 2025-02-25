@@ -11,3 +11,33 @@ footer .container .text-reset,
 footer p {
     color: rgb(50, 48, 48) !important;
 }
+
+footer i {
+    color: rgb(50, 48, 48);
+    text-decoration: none;
+}
+
+footer section .first-text {
+    text-align: justify;
+    letter-spacing: normal;
+    line-height: 1.5;
+    padding: 0 10px;
+}
+
+footer .d-flex a {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-right: 15px;
+    transition: color 0.3s ease;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+footer .d-flex a:hover {
+    color: #007bff;
+}
+
+footer .d-flex {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}

@@ -5,7 +5,7 @@ document.getElementById("footer").innerHTML = `
 <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 <!-- Left -->
     <div class="me-5 d-none d-lg-block">
-    <span>Get connected with us on social networks:</span>
+    <span class="text-dark">Get connected with us on social networks:</span>
     </div>
     <!-- Left -->
 
@@ -18,16 +18,10 @@ document.getElementById("footer").innerHTML = `
         <i class="fab fa-twitter"></i>
       </a>
       <a href="" class="me-4 text-reset">
-        <i class="fab fa-google"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
       <i class="fab fa-instagram"></i>
       </a>
       <a href="" class="me-4 text-reset">
       <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="" class="me-4 text-reset">
-      <i class="fab fa-github"></i>
       </a>
       </div>
       <!-- Right -->
@@ -43,9 +37,9 @@ document.getElementById("footer").innerHTML = `
         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
           <!-- Content -->
           <h6 class="text-uppercase fw-bold mb-4">
-            <i class="fas fa-gem me-3"></i>Armanee Tea
+            <i class="text-success fa-brands fa-envira me-2"></i>Armanee Tea
           </h6>
-          <p>
+          <p class="text-justify first-text">
             Here you can use rows and columns to organize your footer content. Lorem ipsum
             dolor sit amet, consectetur adipisicing elit.
           </p>
@@ -59,16 +53,16 @@ document.getElementById("footer").innerHTML = `
         Products
         </h6>
         <p>
-            <a href="#!" class="text-reset text-decoration-none ">Angular</a>
+            <a href="#!" class="text-reset text-decoration-none ">Home</a>
           </p>
           <p>
-            <a href="#!" class="text-reset text-decoration-none">React</a>
+            <a href="#!" class="text-reset text-decoration-none">About</a>
           </p>
           <p>
-            <a href="#!" class="text-reset text-decoration-none">Vue</a>
+            <a href="#!" class="text-reset text-decoration-none">Shop</a>
             </p>
           <p>
-          <a href="#!" class="text-reset text-decoration-none">Laravel</a>
+          <a href="#!" class="text-reset text-decoration-none">Contact</a>
           </p>
           </div>
           <!-- Grid column -->
