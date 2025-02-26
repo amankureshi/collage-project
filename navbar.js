@@ -1,7 +1,7 @@
 document.getElementById("navbar").innerHTML = `
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/Tea_logo.png" class="logo" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img src="images/Tea_logo.png" class="logo" alt=""></a>
             <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
