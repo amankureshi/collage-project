@@ -29,6 +29,14 @@
     width: 100%;
 }
 
+.navbar-light .navbar-toggler {
+    border: transparent;
+}
+
+.navbar .container .navbar-toggler-icon {
+    background-image: url(https://img.icons8.com/?size=64&id=VypMXfzO4ZOq&format=png&color=7b1b1d);
+}
+
 #carouselExampleIndicators .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
