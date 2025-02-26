@@ -97,3 +97,14 @@
     color: #fff;
     background-color: #7d8961;
 }
+
+@media (max-width:786px) {
+    .about {
+        padding: 20px 0;
+    }
+
+    .about p {
+        font-size: 15px;
+        text-align: justify !important;
+    }
+}
