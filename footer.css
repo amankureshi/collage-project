@@ -1,3 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 0.6rem !important;
+}
+
 footer {
     /* border: 2px solid red; */
     background-color: #DDDDDD;
@@ -40,4 +49,8 @@ footer .d-flex a:hover {
 footer .d-flex {
     margin-bottom: 0;
     padding-bottom: 0;
+}
+
+footer .bottom {
+    border-bottom: 1px solid rgb(73, 71, 71);
 }
