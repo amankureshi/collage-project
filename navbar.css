@@ -2,6 +2,10 @@
     width: 10rem;
 }
 
+.navbar-nav button {
+    text-align: start;
+}
+
 .carousel-indicators .active {
     background-color: #89BF36 !important;
 }
@@ -96,7 +100,7 @@
 }
 
 nav .btn-theme {
-    background-color: #C3A14C;
+    /* background-color: #C3A14C; */
 }
 
 @media (max-width:767px) {
@@ -150,6 +154,10 @@ nav .btn-theme {
     .carousel-caption .top-text {
         font-size: 0.5rem;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        display: inline-block;
     }
 
     /* Top-Btn */

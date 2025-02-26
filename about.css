@@ -155,3 +155,26 @@ table tr td {
     margin: auto;
     object-fit: cover;
 }
+
+@media (max-width:786px) {
+    .about {
+        padding: 10px 0 !important;
+    }
+
+    .v-line {
+        border: none;
+    }
+
+    .v-line::after {
+        display: none;
+    }
+
+    h2 {
+        padding-top: 2rem;
+        text-align: center;
+    }
+
+    .col-md-6 {
+        padding-top: 10px !important;
+    }
+}
