@@ -156,6 +156,61 @@ table tr td {
     object-fit: cover;
 }
 
+@keyframes teaCupBounce {
+    0% {
+        transform: translateY(50px) scale(0.8);
+        opacity: 0;
+    }
+
+    40% {
+        transform: translateY(-10px) scale(1.05);
+        opacity: 1;
+    }
+
+    60% {
+        transform: translateY(5px) scale(0.95);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(0) scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes titleFadeUp {
+    0% {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.tea-cup {
+    animation: teaCupBounce 1.5s ease-out;
+}
+
+.tea-title {
+    animation: titleFadeUp 1s ease-out;
+    animation-delay: 0.5s;
+
+}
+
+.tea-cup:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.tea-title:hover {
+    color: #1D1D1D;
+
+    transition: color 0.3s ease;
+}
+
 @media (max-width:786px) {
     .about {
         padding: 10px 0 !important;
