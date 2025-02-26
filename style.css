@@ -34,6 +34,10 @@ body {
     width: 100%;
 }
 
+.navbar-nav button {
+    text-align: start;
+}
+
 #carouselExampleIndicators .carousel-indicators [data-bs-target] {
     box-sizing: content-box;
     flex: 0 1 auto;
@@ -104,6 +108,29 @@ body {
     transition: 0.3s;
 }
 
+.about h3 {
+    font-size: 2rem;
+    color: #d4780f;
+}
+
+.about {
+    padding: 50px 0;
+}
+
+.about p {
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+}
+
+.vision-mission {
+    background-color: #EFE6DA;
+}
+
+.footer {
+    background-color: #ddd;
+}
+
 @media (max-width:767px) {
     .logo {
         width: 8.4rem;
@@ -157,6 +184,15 @@ body {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
+    #carouselExampleIndicators .carousel-indicators [data-bs-target] {
+        height: 10px;
+        width: 10px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        display: inline-block;
+    }
+
     /* Top-Btn */
     .top-btn {
         text-transform: uppercase;
@@ -168,30 +204,19 @@ body {
         text-align: center;
     }
 
+    .about {
+        padding: 15px 0;
+    }
+
     .about h3 {
         font-size: 1.4rem;
     }
-}
 
-.about h3 {
-    font-size: 2rem;
-    color: #d4780f;
-}
+    .about p {
+        font-size: 1rem;
+    }
 
-.about {
-    padding: 50px 0;
-}
-
-.about p {
-    font-size: 18px;
-    color: black;
-    text-align: justify;
-}
-
-.vision-mission {
-    background-color: #EFE6DA;
-}
-
-.footer {
-    background-color: #ddd;
+    .navbar-nav button {
+        text-align: start;
+    }
 }
