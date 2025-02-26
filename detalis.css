@@ -1,0 +1,22 @@
+.breadcrumb {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, .6)), url(images/about1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.breadcrumb h3 {
+    font-size: 45px;
+}
+
+footer section .first-text {
+    text-align: justify;
+    letter-spacing: normal;
+    line-height: 1.5;
+    padding: 0 10px;
+}
