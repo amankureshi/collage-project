@@ -21,13 +21,17 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
+            <!-- Logo aligned to the left -->
             <a class="navbar-brand" href="#"><img src="images/Tea_logo.png" class="logo" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+
+            <!-- Toggler icon aligned to the right on small screens -->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto gap-2">
                     <li class="nav-item">
                         <a class="nav-link text-dark" aria-current="page" href="#">Home</a>
@@ -41,17 +45,20 @@
                     <li class="nav-item">
                         <a class="nav-link text-dark" href="contact.html">Contact</a>
                     </li>
-
-                    <button class="btn btn-theme text-white l px-2">
-                        <!-- <a class="text-dark text-decoration-none text-white" href="myaccount.html">My account<a /> -->
-                        <a class="text-dark text-decoration-none text-white" href="myaccount.html"><img
-                                src="https://img.icons8.com/?size=200&id=yV78UciKeGfe&format=png" width="30"
-                                alt=""><a />
-                    </button>
                 </ul>
+
+                <!-- User account button aligned to the right -->
+                <div class="d-flex ms-auto">
+                    <button class="btn btn-theme text-white l px-2">
+                        <a class="text-dark text-decoration-none text-white" href="myaccount.html">
+                            <img src="https://img.icons8.com/?size=100&id=7819&format=png" width="30" alt="">
+                        </a>
+                    </button>
+                </div>
             </div>
         </div>
     </nav>
+
 
     <!------Slider Section------->
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -239,16 +246,16 @@
                             Products
                         </h6>
                         <p>
-                            <a href="#!" class="text-reset text-decoration-none ">Home</a>
+                            <a href="home" class="text-reset text-decoration-none">Home</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset text-decoration-none">About</a>
+                            <a href="about.html" class="text-reset text-decoration-none">About</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset text-decoration-none">Shop</a>
+                            <a href="shop.html" class="text-reset text-decoration-none">Shop</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset text-decoration-none">Contact</a>
+                            <a href="contact.html" class="text-reset text-decoration-none">Contact</a>
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -257,19 +264,19 @@
                     <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4">
-                            Useful links
+                            Tea Type
                         </h6>
                         <p>
-                            <a href="#!" class="text-reset text-decoration-none">Pricing</a>
+                            <a href="#!" class="text-reset text-decoration-none">Black Tea</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset text-decoration-none">Settings</a>
+                            <a href="#!" class="text-reset text-decoration-none">White Tea</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset text-decoration-none">Orders</a>
+                            <a href="#!" class="text-reset text-decoration-none">Classic Green</a>
                         </p>
                         <p>
-                            <a href="#!" class="text-reset text-decoration-none">Help</a>
+                            <a href="#!" class="text-reset text-decoration-none">Dazzing</a>
                         </p>
                     </div>
                     <!-- Grid column -->

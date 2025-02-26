@@ -72,19 +72,19 @@ document.getElementById("footer").innerHTML = `
           <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
           <!-- Links -->
           <h6 class="text-uppercase fw-bold mb-4">
-          Useful links
+          Tea Type
           </h6>
           <p>
-          <a href="#!" class="text-reset text-decoration-none">Pricing</a>
+          <a href="#!" class="text-reset text-decoration-none">Black Tea</a>
           </p>
           <p>
-          <a href="#!" class="text-reset text-decoration-none">Settings</a>
+          <a href="#!" class="text-reset text-decoration-none">White Tea</a>
           </p>
           <p>
-            <a href="#!" class="text-reset text-decoration-none">Orders</a>
-            </p>
-            <p>
-            <a href="#!" class="text-reset text-decoration-none">Help</a>
+          <a href="#!" class="text-reset text-decoration-none">Classic Green</a>
+          </p>
+          <p>
+          <a href="#!" class="text-reset text-decoration-none">Dazzing</a>
           </p>
         </div>
         <!-- Grid column -->
