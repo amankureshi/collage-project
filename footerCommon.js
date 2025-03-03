@@ -54,7 +54,7 @@ document.getElementById("footer").innerHTML = `
         Products
         </h6>
         <p>
-            <a href="#!" class="text-reset text-decoration-none ">Home</a>
+            <a href="index.html" class="text-reset text-decoration-none ">Home</a>
           </p>
           <p>
             <a href="#!" class="text-reset text-decoration-none">About</a>
