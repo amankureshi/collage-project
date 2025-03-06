@@ -75,7 +75,7 @@ document.getElementById("footer").innerHTML = `
           Tea Type
           </h6>
           <p>
-          <a href="#!" class="text-reset text-decoration-none">Black Tea</a>
+          <a href="details-page.html" class="text-reset text-decoration-none">Black Tea</a>
           </p>
           <p>
           <a href="#!" class="text-reset text-decoration-none">White Tea</a>
