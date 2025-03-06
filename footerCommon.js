@@ -109,9 +109,9 @@ document.getElementById("footer").innerHTML = `
         <!-- Section: Links  -->
         
         <!-- Copyright -->
-        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+        <div class="text-dark text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
         © 2021 Copyright:
-        <a class="text-reset fw-bold" href="">ArmaaneTea.com</a>
+        <a class=" fw-bold text-dark" href="">ArmaaneTea.com</a>
         </div>
   <!-- Copyright -->
   </footer>
